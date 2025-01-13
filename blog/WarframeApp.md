@@ -45,4 +45,15 @@ Therefore it is considered paramount that the `Warframe` fandom.wiki is updated 
 
 As `Warframe` has evolved over the years, so has the capabilities of the content of the game. Therefor if any new player dare to try to look up certain stuff, like mods as an examples, they would get overwhelmed by the sheer amount and also for what each individual mods text. This simply is the reality they would have to face if they want to go on with their life as a `Warframe` player. Furthermore, we the end-content users is also baffled by the sheer amount of stuff that is going on in this game. Nobody would be expected to have a full overview of the game and its content.
 
-Therefore we would need something to contain these data and make it more digestible. The fandom.wiki is not where we should need to go every time we are looking for where stuff drop, the chance of it dropping and what exactly the drop would do.
+Therefore we would need something to contain these data and make it more digestible. The fandom.wiki is not where we should need to go every time we are looking for where stuff drop, the chance of it dropping and what exactly the drop would do. We should either have it in-game or have a dedicated webpage to look these things up.
+
+While this would be the best case scenario, it would probably not be realized within the nearest future. This is because of `DE`. They do have an "*in-game wiki* which almost is a useful as a guide written 8 years ago. So we would expect a dedicated webpage from `DE`, right? Nope. Clearly `DE` has no interest in opening an API for data collection. This include both items data collection and profile data collections.
+
+### `DE` and the no data inclusion
+`DE` has an API. This api gives us open-world data and event data. Which means we can see which relics we can open with their missions. We can also see if it is day/night on `Plains of Eidolon`, Cold or Hot for `Fortuna` and Vos or Fass on `Deimos`. So the question I have imposed the dev team of `DE` is why we haven't gotten a proper API to call data which is in the game, **which is not player data**? The answer is both simple and not simple. Their answer (*back in 2018*) was that if they were to make a proper data API, then they would want to contain player data such as collected mods, collected weapons and so on. This would be a privacy nightmare since they would also have to implement some authentication which could stop people from stalking other players. This is where they have said no. They don't want to deal with this and therefore we would never get such a thing.
+
+Furthermore they would also have to deal with a data server which would need simple security to deal with simple DDoS attacks and misuse of data. So in essence, we would probably never see a proper API from `DE` them self and therefore it is left to us, the users, to develop this service.
+
+### What we can do
+
+The only thing we really can do, as users, is to take the game values provided in game and then format it on a webpage like fandom.wiki.
